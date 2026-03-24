@@ -1,4 +1,5 @@
-import { test, expect } from "../playwright-fixture";
+import { test, expect } from '@playwright/test';
+
 
 test.describe("Home Page", () => {
   test("displays product listing", async ({ page }) => {
